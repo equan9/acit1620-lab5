@@ -133,14 +133,14 @@ header {
 
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 @media screen and (min-width: 800px) {
     footer {
         display: flex;
         padding: 4em;
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
 
     footer > div {
